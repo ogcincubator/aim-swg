@@ -1,5 +1,5 @@
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld",
   "@id": "urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a",
   "type": "Feature",
   "featureType": "foodie:Plot",

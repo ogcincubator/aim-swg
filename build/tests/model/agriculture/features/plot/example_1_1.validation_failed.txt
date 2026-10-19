@@ -1,5 +1,5 @@
 Validation report for ogc.model.agriculture.features.plot - Plot - GeoJSON
-Generated 2026-10-08T19:18:31.593608+00:00
+Generated 2026-10-19T22:11:45.507439+00:00
 === Files ===
 Using examples/plot.json from examples
 JSON-LD context is present - uplifting
@@ -16,7 +16,7 @@ Failed validating 'anyOf' in schema:
     {'$defs': {'MyFeature': {'allOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature-lenient/schema.yaml'},
                                        {'properties': {'properties': {'properties': {'area': {'type': 'number',
                                                                                               'x-jsonld-id': 'https://smartdatamodels.org/dataModel.Agrifood/area'},
-                                                                                     'crop': {'$ref': 'https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml',
+                                                                                     'crop': {'$ref': 'https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml',
                                                                                               'x-jsonld-id': 'http://foodie-cloud.com/model/foodie#crop',
                                                                                               'x-jsonld-type': '@id'},
                                                                                      'description': {'type': 'string',
@@ -160,11 +160,11 @@ Validation result for https://opengeospatial.github.io/bblocks/registereditems/g
   Conforms: True
   
 Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
- - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:FeatureShape: <urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a>
  - Shape geojson:LinkShape: *none*
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
  - Shape geojson:GeometryShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
 
 
 ** Validation error **

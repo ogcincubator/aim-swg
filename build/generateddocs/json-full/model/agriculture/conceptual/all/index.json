@@ -25,10 +25,10 @@
   ],
   "shaclShapes": {
     "ogc.model.agriculture.conceptual.farm": [
-      "https://opengeospatial.github.io/aim-swg/SHACL/agriFeature-SHACL.ttl"
+      "https://ogcincubator.github.io/aim-swg/SHACL/agriFeature-SHACL.ttl"
     ],
     "ogc.model.agriculture.conceptual.plot": [
-      "https://opengeospatial.github.io/aim-swg/SHACL/agriFeature-SHACL.ttl"
+      "https://ogcincubator.github.io/aim-swg/SHACL/agriFeature-SHACL.ttl"
     ],
     "ogc.model.cross-domain.prov": [
       "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
@@ -40,10 +40,10 @@
       "https://ogcincubator.github.io/cross-domain-model/_sources/sosa/rules.shacl"
     ]
   },
-  "sourceFiles": "https://opengeospatial.github.io/aim-swg/_sources/conceptual/all/",
+  "sourceFiles": "https://ogcincubator.github.io/aim-swg/_sources/conceptual/all/",
   "validationPassed": true,
   "description": "## Agriculture Information Model Closure\n\nDefines dependencies for the complete Agriculture Information Model based on reusable modular components.\n\n\n\n\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/opengeospatial/aim-swg",
+  "gitRepository": "https://github.com/ogcincubator/aim-swg",
   "gitPath": "_sources/conceptual/all"
 }

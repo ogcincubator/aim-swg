@@ -80,7 +80,7 @@ Example from AIM  using a GeoJSON schema.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld",
   "@id": "urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a",
   "type": "Feature",
   "featureType": "foodie:Plot",
@@ -172,7 +172,7 @@ $defs:
         properties:
           properties:
             crop:
-              $ref: https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+              $ref: https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
               x-jsonld-id: http://foodie-cloud.com/model/foodie#crop
               x-jsonld-type: '@id'
             description:
@@ -323,8 +323,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.json)
-* JSON version: [schema.json](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml)
 
 
 # JSON-LD Context
@@ -725,6 +725,7 @@ Links to the schema:
     "pen": "https://smartdatamodels.org/dataModel.Agrifood/pen",
     "phaseOutPeriod": "https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod",
     "phenologicalCondition": "https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition",
+    "photosyntheticallyActiveRadiation": "https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation",
     "plan": "https://smartdatamodels.org/dataModel.Agrifood/plan",
     "plannedEndAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt",
     "plannedStartAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt",
@@ -763,6 +764,8 @@ Links to the schema:
     "st": "https://smartdatamodels.org/dataModel.Agrifood/st",
     "startedAt": "https://smartdatamodels.org/dataModel.Agrifood/startedAt",
     "status": "ngsi-ld:status",
+    "stemDiameter": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameter",
+    "stemDiameterVariation": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation",
     "streetAddress": "https://smartdatamodels.org/streetAddress",
     "streetNr": "https://smartdatamodels.org/streetNr",
     "subcode": "https://smartdatamodels.org/dataModel.Agrifood/subcode",
@@ -843,13 +846,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/opengeospatial/aim-swg](https://github.com/opengeospatial/aim-swg)
+* URL: [https://github.com/ogcincubator/aim-swg](https://github.com/ogcincubator/aim-swg)
 * Path: `_sources/features/plot`
 

@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.model.agriculture.conceptual.farm - Farm",
   "bblockName": "Farm",
   "bblockId": "ogc.model.agriculture.conceptual.farm",
-  "generated": "2026-10-08T19:18:28.869313+00:00",
+  "generated": "2026-10-19T22:11:42.617302+00:00",
   "result": false,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/model/agriculture/conceptual/farm/example_1_1.ttl",
-        "url": "https://opengeospatial.github.io/aim-swg/build/tests/model/agriculture/conceptual/farm/example_1_1.ttl",
+        "url": "https://ogcincubator.github.io/aim-swg/build/tests/model/agriculture/conceptual/farm/example_1_1.ttl",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "text/turtle"

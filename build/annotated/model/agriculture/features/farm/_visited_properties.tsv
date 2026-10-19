@@ -153,8 +153,8 @@ path	@id	schema
 /properties/name		/github/workspace/build/annotated/model/agriculture/features/farm/schema.yaml
 /properties/description	http://foodie-cloud.com/model/foodie#description	/github/workspace/build/annotated/model/agriculture/features/farm/schema.yaml
 /properties/containsPlot	http://foodie-cloud.com/model/foodie#containsPlot	/github/workspace/build/annotated/model/agriculture/features/farm/schema.yaml
-/properties/containsPlot/properties		https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
-/properties/containsPlot/properties/crop	http://foodie-cloud.com/model/foodie#crop	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
+/properties/containsPlot/properties		https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
+/properties/containsPlot/properties/crop	http://foodie-cloud.com/model/foodie#crop	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
 /properties/containsPlot/properties/crop/id		https://smart-data-models.github.io/data-models/common-schema.json
 /properties/containsPlot/properties/crop/dateCreated		https://smart-data-models.github.io/data-models/common-schema.json
 /properties/containsPlot/properties/crop/dateModified		https://smart-data-models.github.io/data-models/common-schema.json
@@ -168,17 +168,17 @@ path	@id	schema
 /properties/containsPlot/properties/crop/relatedSource		https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json
 /properties/containsPlot/properties/crop/relatedSource/application		https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json
 /properties/containsPlot/properties/crop/relatedSource/applicationEntityId		https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json
-/properties/containsPlot/properties/crop/type	@type	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/agroVocConcept	https://smartdatamodels.org/dataModel.Agrifood/agroVocConcept	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/hasAgriSoil	https://smartdatamodels.org/dataModel.Agrifood/hasAgriSoil	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/hasAgriFertiliser	https://smartdatamodels.org/dataModel.Agrifood/hasAgriFertiliser	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/hasAgriPest	https://smartdatamodels.org/dataModel.Agrifood/hasAgriPest	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/harvestingInterval	https://smartdatamodels.org/dataModel.Agrifood/harvestingInterval	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/harvestingInterval/dateRange	https://smartdatamodels.org/dataModel.Agrifood/dateRange	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/harvestingInterval/description	http://purl.org/dc/terms/description	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/plantingFrom	https://smartdatamodels.org/dataModel.Agrifood/plantingFrom	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/plantingFrom/dateRange	https://smartdatamodels.org/dataModel.Agrifood/dateRange	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/plantingFrom/description	http://purl.org/dc/terms/description	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/crop/wateringFrequency	https://smartdatamodels.org/dataModel.Agrifood/wateringFrequency	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
-/properties/containsPlot/properties/description	http://foodie-cloud.com/model/foodie#description	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
-/properties/containsPlot/properties/area	https://smartdatamodels.org/dataModel.Agrifood/area	https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
+/properties/containsPlot/properties/crop/type	@type	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/agroVocConcept	https://smartdatamodels.org/dataModel.Agrifood/agroVocConcept	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/hasAgriSoil	https://smartdatamodels.org/dataModel.Agrifood/hasAgriSoil	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/hasAgriFertiliser	https://smartdatamodels.org/dataModel.Agrifood/hasAgriFertiliser	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/hasAgriPest	https://smartdatamodels.org/dataModel.Agrifood/hasAgriPest	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/harvestingInterval	https://smartdatamodels.org/dataModel.Agrifood/harvestingInterval	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/harvestingInterval/dateRange	https://smartdatamodels.org/dataModel.Agrifood/dateRange	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/harvestingInterval/description	http://purl.org/dc/terms/description	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/plantingFrom	https://smartdatamodels.org/dataModel.Agrifood/plantingFrom	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/plantingFrom/dateRange	https://smartdatamodels.org/dataModel.Agrifood/dateRange	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/plantingFrom/description	http://purl.org/dc/terms/description	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/crop/wateringFrequency	https://smartdatamodels.org/dataModel.Agrifood/wateringFrequency	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml
+/properties/containsPlot/properties/description	http://foodie-cloud.com/model/foodie#description	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
+/properties/containsPlot/properties/area	https://smartdatamodels.org/dataModel.Agrifood/area	https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml

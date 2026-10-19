@@ -1,5 +1,5 @@
 Validation report for ogc.model.agriculture.external.smart-agrifood.crop - SMART AgriCrop
-Generated 2026-10-08T19:18:27.804258+00:00
+Generated 2026-10-19T22:11:41.626770+00:00
 === Files ===
 Using examples/crop.json from examples
 JSON-LD context is present - uplifting
@@ -467,6 +467,7 @@ Failed validating 'required' in schema:
                               'pen': 'https://smartdatamodels.org/dataModel.Agrifood/pen',
                               'phaseOutPeriod': 'https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod',
                               'phenologicalCondition': 'https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition',
+                              'photosyntheticallyActiveRadiation': 'https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation',
                               'plan': 'https://smartdatamodels.org/dataModel.Agrifood/plan',
                               'plannedEndAt': 'https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt',
                               'plannedStartAt': 'https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt',
@@ -506,6 +507,8 @@ Failed validating 'required' in schema:
                               'st': 'https://smartdatamodels.org/dataModel.Agrifood/st',
                               'startedAt': 'https://smartdatamodels.org/dataModel.Agrifood/startedAt',
                               'status': 'https://uri.etsi.org/ngsi-ld/status',
+                              'stemDiameter': 'https://smartdatamodels.org/dataModel.Agrifood/stemDiameter',
+                              'stemDiameterVariation': 'https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation',
                               'streetAddress': 'https://smartdatamodels.org/streetAddress',
                               'streetNr': 'https://smartdatamodels.org/streetNr',
                               'subcode': 'https://smartdatamodels.org/dataModel.Agrifood/subcode',

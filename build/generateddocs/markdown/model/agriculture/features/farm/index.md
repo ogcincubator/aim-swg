@@ -45,7 +45,7 @@ Example from AIM  using a GeoJSON schema.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
   "id": "f1",
   "type": "Feature",
   "featureType": "saref4agri:Farm",
@@ -183,7 +183,7 @@ Example from AIM  using a GeoJSON schema.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
   "id": "f1",
   "type": "Feature",
   "featureType": "saref4agri:Farm",
@@ -446,7 +446,7 @@ Example from AIM  using a GeoJSON schema.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld",
   "id": "f1",
   "type": "Feature",
   "featureType": "saref4agri:Farm",
@@ -638,7 +638,7 @@ $defs:
             containsPlot:
               type: array
               items:
-                $ref: https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
+                $ref: https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml
               x-jsonld-id: http://foodie-cloud.com/model/foodie#containsPlot
               x-jsonld-type: '@id'
 anyOf:
@@ -781,8 +781,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/schema.json)
-* JSON version: [schema.json](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/schema.yaml)
 
 
 # JSON-LD Context
@@ -1218,6 +1218,7 @@ Links to the schema:
     "pen": "https://smartdatamodels.org/dataModel.Agrifood/pen",
     "phaseOutPeriod": "https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod",
     "phenologicalCondition": "https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition",
+    "photosyntheticallyActiveRadiation": "https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation",
     "plan": "https://smartdatamodels.org/dataModel.Agrifood/plan",
     "plannedEndAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt",
     "plannedStartAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt",
@@ -1256,6 +1257,8 @@ Links to the schema:
     "st": "https://smartdatamodels.org/dataModel.Agrifood/st",
     "startedAt": "https://smartdatamodels.org/dataModel.Agrifood/startedAt",
     "status": "ngsi-ld:status",
+    "stemDiameter": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameter",
+    "stemDiameterVariation": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation",
     "streetAddress": "https://smartdatamodels.org/streetAddress",
     "streetNr": "https://smartdatamodels.org/streetNr",
     "subcode": "https://smartdatamodels.org/dataModel.Agrifood/subcode",
@@ -1307,13 +1310,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/farm/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/opengeospatial/aim-swg](https://github.com/opengeospatial/aim-swg)
+* URL: [https://github.com/ogcincubator/aim-swg](https://github.com/ogcincubator/aim-swg)
 * Path: `_sources/features/farm`
 

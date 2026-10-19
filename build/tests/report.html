@@ -64,7 +64,7 @@
     <body>
         <div class="container">
             <h1 class="title">Building blocks validation report</h1>
-            <small class="datetime">Generated at 2026-10-08T19:18:37.224443+00:00</small>
+            <small class="datetime">Generated at 2026-10-19T22:11:49.944959+00:00</small>
                 <p class="summary fw-semibold text-danger">
                     Number of passing building blocks: 3 / 9 (33.33%)
                 </p>
@@ -630,6 +630,7 @@ Failed validating &#x27;required&#x27; in schema:
                               &#x27;pen&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/pen&#x27;,
                               &#x27;phaseOutPeriod&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod&#x27;,
                               &#x27;phenologicalCondition&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition&#x27;,
+                              &#x27;photosyntheticallyActiveRadiation&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation&#x27;,
                               &#x27;plan&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/plan&#x27;,
                               &#x27;plannedEndAt&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt&#x27;,
                               &#x27;plannedStartAt&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt&#x27;,
@@ -669,6 +670,8 @@ Failed validating &#x27;required&#x27; in schema:
                               &#x27;st&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/st&#x27;,
                               &#x27;startedAt&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/startedAt&#x27;,
                               &#x27;status&#x27;: &#x27;https://uri.etsi.org/ngsi-ld/status&#x27;,
+                              &#x27;stemDiameter&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/stemDiameter&#x27;,
+                              &#x27;stemDiameterVariation&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation&#x27;,
                               &#x27;streetAddress&#x27;: &#x27;https://smartdatamodels.org/streetAddress&#x27;,
                               &#x27;streetNr&#x27;: &#x27;https://smartdatamodels.org/streetNr&#x27;,
                               &#x27;subcode&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/subcode&#x27;,
@@ -942,7 +945,7 @@ Failed validating &#x27;anyOf&#x27; in schema:
     {&#x27;$defs&#x27;: {&#x27;MyFeature&#x27;: {&#x27;allOf&#x27;: [{&#x27;$ref&#x27;: &#x27;https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature-lenient/schema.yaml&#x27;},
                                        {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;area&#x27;: {&#x27;type&#x27;: &#x27;number&#x27;,
                                                                                               &#x27;x-jsonld-id&#x27;: &#x27;https://smartdatamodels.org/dataModel.Agrifood/area&#x27;},
-                                                                                     &#x27;crop&#x27;: {&#x27;$ref&#x27;: &#x27;https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml&#x27;,
+                                                                                     &#x27;crop&#x27;: {&#x27;$ref&#x27;: &#x27;https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml&#x27;,
                                                                                               &#x27;x-jsonld-id&#x27;: &#x27;http://foodie-cloud.com/model/foodie#crop&#x27;,
                                                                                               &#x27;x-jsonld-type&#x27;: &#x27;@id&#x27;},
                                                                                      &#x27;description&#x27;: {&#x27;type&#x27;: &#x27;string&#x27;,
@@ -1088,11 +1091,11 @@ On instance:
   </div>
                                                                     
                                                                     <div class="font-monospace entry-message section-shacl ">Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
- - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:FeatureShape: &lt;urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a&gt;
  - Shape geojson:LinkShape: *none*
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
  - Shape geojson:GeometryShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
 </div>
                                                     </div>
                                                 </div>
@@ -1279,9 +1282,9 @@ For reference, see https://www.w3.org/TR/shacl/#MaxCountConstraintComponent</div
                                                                     
                                                                     <div class="font-monospace entry-message section-shacl ">Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
- - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:FeatureShape: &lt;file:///github/workspace/f1&gt;
  - Shape geojson:LinkShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:GeometryShape: *none*
 </div>
                                                     </div>
@@ -1334,9 +1337,9 @@ For reference, see https://www.w3.org/TR/shacl/#MaxCountConstraintComponent</div
                                                                     
                                                                     <div class="font-monospace entry-message section-shacl ">Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
- - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:FeatureShape: &lt;urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a&gt;,&lt;file:///github/workspace/f1&gt;,&lt;urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259b&gt;
  - Shape geojson:LinkShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:GeometryShape: *none*
 </div>
                                                     </div>
@@ -1380,7 +1383,7 @@ For reference, see https://www.w3.org/TR/shacl/#MaxCountConstraintComponent</div
 
 Failed validating &#x27;anyOf&#x27; in schema:
     {&#x27;$defs&#x27;: {&#x27;MyFeature&#x27;: {&#x27;allOf&#x27;: [{&#x27;$ref&#x27;: &#x27;https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature-lenient/schema.yaml&#x27;},
-                                       {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;containsPlot&#x27;: {&#x27;items&#x27;: {&#x27;$ref&#x27;: &#x27;https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml&#x27;},
+                                       {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;properties&#x27;: {&#x27;containsPlot&#x27;: {&#x27;items&#x27;: {&#x27;$ref&#x27;: &#x27;https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/features/plot/schema.yaml&#x27;},
                                                                                                       &#x27;type&#x27;: &#x27;array&#x27;,
                                                                                                       &#x27;x-jsonld-id&#x27;: &#x27;http://foodie-cloud.com/model/foodie#containsPlot&#x27;,
                                                                                                       &#x27;x-jsonld-type&#x27;: &#x27;@id&#x27;},
@@ -1573,9 +1576,9 @@ On instance:
                                                                     
                                                                     <div class="font-monospace entry-message section-shacl ">Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
- - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:FeatureShape: &lt;urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259a&gt;,&lt;file:///github/workspace/f1&gt;,&lt;urn:ngsi-ld:plot:72d9fb43-53f8-4ec8-a33c-fa931360259b&gt;
  - Shape geojson:LinkShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
  - Shape geojson:GeometryShape: *none*
 </div>
                                                     </div>

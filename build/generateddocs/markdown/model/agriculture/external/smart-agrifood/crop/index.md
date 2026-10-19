@@ -124,7 +124,7 @@ Example from https://smart-data-models.github.io/dataModel.Agrifood/AgriCrop/exa
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld",
   "id": "urn:ngsi-ld:AgriCrop:df72dc57-1eb9-42a3-88a9-8647ecc954b4",
   "type": "AgriCrop",
   "dateCreated": {
@@ -225,45 +225,45 @@ Example from https://smart-data-models.github.io/dataModel.Agrifood/AgriCrop/exa
 ```ttl
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
-@prefix ns1: <https://smartdatamodels.org/dataModel.Agrifood/> .
-@prefix ns2: <https://smartdatamodels.org/> .
+@prefix ns1: <https://smartdatamodels.org/> .
+@prefix ns2: <https://smartdatamodels.org/dataModel.Agrifood/> .
 
-<urn:ngsi-ld:AgriCrop:df72dc57-1eb9-42a3-88a9-8647ecc954b4> a ns1:AgriCrop ;
-    ns2:alternateName [ a <file:///github/workspace/Text> ;
+<urn:ngsi-ld:AgriCrop:df72dc57-1eb9-42a3-88a9-8647ecc954b4> a ns2:AgriCrop ;
+    ns1:alternateName [ a <file:///github/workspace/Text> ;
             ngsi-ld:hasValue "Triticum aestivum" ] ;
-    ns1:agroVocConcept [ a <file:///github/workspace/Text> ;
+    ns2:agroVocConcept [ a <file:///github/workspace/Text> ;
             ngsi-ld:hasValue "http://aims.fao.org/aos/agrovoc/c_7951" ] ;
-    ns1:harvestingInterval [ a <file:///github/workspace/StructuredValue> ;
-            ngsi-ld:hasValue [ dcterms:description "Season OK" ;
-                    ns1:dateRange "-04-02/-04-15" ],
-                [ dcterms:description "Best Season" ;
-                    ns1:dateRange "-03-21/-04-01" ] ] ;
-    ns1:hasAgriFertiliser [ a <file:///github/workspace/StructuredValue> ;
+    ns2:harvestingInterval [ a <file:///github/workspace/StructuredValue> ;
+            ngsi-ld:hasValue [ dcterms:description "Best Season" ;
+                    ns2:dateRange "-03-21/-04-01" ],
+                [ dcterms:description "Season OK" ;
+                    ns2:dateRange "-04-02/-04-15" ] ] ;
+    ns2:hasAgriFertiliser [ a <file:///github/workspace/StructuredValue> ;
             ngsi-ld:hasValue "urn:ngsi-ld:AgriFertiliser:1b0d6cf7-320c-4a2b-b2f1-4575ea850c73",
                 "urn:ngsi-ld:AgriFertiliser:380973c8-4d3b-4723-a899-0c0c5cc63e7e" ] ;
-    ns1:hasAgriPest [ a <file:///github/workspace/StructuredValue> ;
+    ns2:hasAgriPest [ a <file:///github/workspace/StructuredValue> ;
             ngsi-ld:hasValue "urn:ngsi-ld:AgriPest:1b0d6cf7-320c-4a2b-b2f1-4575ea850c73",
                 "urn:ngsi-ld:AgriPest:380973c8-4d3b-4723-a899-0c0c5cc63e7e" ] ;
-    ns1:hasAgriSoil [ a <file:///github/workspace/StructuredValue> ;
+    ns2:hasAgriSoil [ a <file:///github/workspace/StructuredValue> ;
             ngsi-ld:hasValue "urn:ngsi-ld:AgriSoil:00411b56-bd1b-4551-96e0-a6e7fde9c840",
                 "urn:ngsi-ld:AgriSoil:e8a8389a-edf5-4345-8d2c-b98ac1ce8e2a" ] ;
-    ns1:plantingFrom [ a <file:///github/workspace/StructuredValue> ;
+    ns2:plantingFrom [ a <file:///github/workspace/StructuredValue> ;
             ngsi-ld:hasValue [ dcterms:description "Best Season" ;
-                    ns1:dateRange "-09-28/-10-12" ],
+                    ns2:dateRange "-09-28/-10-12" ],
                 [ dcterms:description "Season OK" ;
-                    ns1:dateRange "-10-11/-10-18" ] ] ;
-    ns1:relatedSource [ a <file:///github/workspace/StructuredValue> ;
-            ngsi-ld:hasValue [ ns1:application "urn:ngsi-ld:AgriApp:72d9fb43-53f8-4ec8-a33c-fa931360259a" ;
-                    ns1:applicationEntityId "app:weat" ] ] ;
-    ns1:wateringFrequency [ a <file:///github/workspace/Text> ;
+                    ns2:dateRange "-10-11/-10-18" ] ] ;
+    ns2:relatedSource [ a <file:///github/workspace/StructuredValue> ;
+            ngsi-ld:hasValue [ ns2:application "urn:ngsi-ld:AgriApp:72d9fb43-53f8-4ec8-a33c-fa931360259a" ;
+                    ns2:applicationEntityId "app:weat" ] ] ;
+    ns2:wateringFrequency [ a <file:///github/workspace/Text> ;
             ngsi-ld:hasValue "daily" ] ;
-    ns2:dateCreated [ a <file:///github/workspace/DateTime> ;
+    ns1:dateCreated [ a <file:///github/workspace/DateTime> ;
             ngsi-ld:hasValue "2017-01-01T01:20:00Z" ] ;
-    ns2:dateModified [ a <file:///github/workspace/DateTime> ;
+    ns1:dateModified [ a <file:///github/workspace/DateTime> ;
             ngsi-ld:hasValue "2017-05-04T12:30:00Z" ] ;
-    ns2:name [ a <file:///github/workspace/Text> ;
+    ns1:name [ a <file:///github/workspace/Text> ;
             ngsi-ld:hasValue "Wheat" ] ;
-    ns2:seeAlso [ a <file:///github/workspace/StructuredValue> ;
+    ns1:seeAlso [ a <file:///github/workspace/StructuredValue> ;
             ngsi-ld:hasValue "https://datamodel.org/example/wheat",
                 "https://example.org/concept/wheat" ] .
 
@@ -296,7 +296,7 @@ Example from AIM farm example
 #### jsonld
 ```jsonld
 {
-  "@context": "https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld",
+  "@context": "https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld",
   "@id": "urn:ngsi-ld:crop:df72dc57-1eb9-42a3-88a9-8647ecc954b4",
   "@type": "Crop",
   "cropSpecies": {
@@ -629,6 +629,7 @@ x-jsonld-extra-terms:
   pen: https://smartdatamodels.org/dataModel.Agrifood/pen
   phaseOutPeriod: https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod
   phenologicalCondition: https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition
+  photosyntheticallyActiveRadiation: https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation
   plan: https://smartdatamodels.org/dataModel.Agrifood/plan
   plannedEndAt: https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt
   plannedStartAt: https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt
@@ -668,6 +669,8 @@ x-jsonld-extra-terms:
   st: https://smartdatamodels.org/dataModel.Agrifood/st
   startedAt: https://smartdatamodels.org/dataModel.Agrifood/startedAt
   status: https://uri.etsi.org/ngsi-ld/status
+  stemDiameter: https://smartdatamodels.org/dataModel.Agrifood/stemDiameter
+  stemDiameterVariation: https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation
   streetAddress: https://smartdatamodels.org/streetAddress
   streetNr: https://smartdatamodels.org/streetNr
   subcode: https://smartdatamodels.org/dataModel.Agrifood/subcode
@@ -707,8 +710,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.json)
-* JSON version: [schema.json](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/schema.yaml)
 
 
 # JSON-LD Context
@@ -912,6 +915,7 @@ Links to the schema:
     "pen": "https://smartdatamodels.org/dataModel.Agrifood/pen",
     "phaseOutPeriod": "https://smartdatamodels.org/dataModel.Agrifood/phaseOutPeriod",
     "phenologicalCondition": "https://smartdatamodels.org/dataModel.Agrifood/phenologicalCondition",
+    "photosyntheticallyActiveRadiation": "https://smartdatamodels.org/dataModel.Agrifood/photosyntheticallyActiveRadiation",
     "plan": "https://smartdatamodels.org/dataModel.Agrifood/plan",
     "plannedEndAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedEndAt",
     "plannedStartAt": "https://smartdatamodels.org/dataModel.Agrifood/plannedStartAt",
@@ -948,6 +952,8 @@ Links to the schema:
     "st": "https://smartdatamodels.org/dataModel.Agrifood/st",
     "startedAt": "https://smartdatamodels.org/dataModel.Agrifood/startedAt",
     "status": "ngsi-ld:status",
+    "stemDiameter": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameter",
+    "stemDiameterVariation": "https://smartdatamodels.org/dataModel.Agrifood/stemDiameterVariation",
     "streetAddress": "https://smartdatamodels.org/streetAddress",
     "streetNr": "https://smartdatamodels.org/streetNr",
     "subcode": "https://smartdatamodels.org/dataModel.Agrifood/subcode",
@@ -987,13 +993,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://opengeospatial.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/aim-swg/build/annotated/model/agriculture/external/smart-agrifood/crop/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/opengeospatial/aim-swg](https://github.com/opengeospatial/aim-swg)
+* URL: [https://github.com/ogcincubator/aim-swg](https://github.com/ogcincubator/aim-swg)
 * Path: `_sources/external/smart-agrifood/crop`
 
