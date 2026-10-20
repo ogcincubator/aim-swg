@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "ogc-incubator",
   "version": "0.1",
-  "dateOfLastChange": "2026-10-08",
+  "dateOfLastChange": "2026-10-20",
   "dependsOn": [
     "ogc.geo.json-fg.feature-lenient",
     "ogc.model.agriculture.conceptual.farm",
